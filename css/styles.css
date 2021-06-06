@@ -1,0 +1,155 @@
+/* Body CSS */
+body{
+    background-color: hsl(210, 46%, 95%);
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 15px;
+}
+
+.container{
+    margin: 25px auto 40px;
+    box-shadow: 10px 10px 4px 0px rgba(218,227,234,0.86);
+-webkit-box-shadow: 8px 7px 4px 0px rgba(218,227,234,0.86);
+-moz-box-shadow: 8px 7px 4px 0px rgba(218,227,234,0.86);
+}
+
+.contentDiv{
+    width:90%;
+}
+
+
+/* Bio Details */
+.titleDiv{
+    display: flex;
+    padding: 20px 0 20px;
+}
+
+.circle{
+    border-radius: 100%;
+}
+
+.bioDiv{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+}
+.bioDiv p{
+    line-height: 35%; 
+}
+
+.topName{
+    margin-top: 10px;
+}
+
+.profile{
+    margin-right: 13px;
+}
+
+
+/* White Background CSS */
+.whiteBgName{
+    color:hsl(217, 19%, 35%);
+    font-weight: bold;
+}
+
+.whiteBgGraduate{
+    color:hsla(217, 19%, 35%, 0.5);
+}
+
+.whiteBgP{
+    color:hsla(217, 19%, 35%, 0.7);
+    padding-top: 10px;
+    line-height: 150%;
+}
+
+.whiteBgHeading{
+    color:hsl(224,8%,33%);
+    font-weight: 600;
+    padding-top:3px;
+}
+
+
+/* Coloured Background CSS */
+.darkP{
+    color:hsla(0, 0%, 81%, 0.7);
+    padding-top: 10px;
+    line-height: 150%;
+}
+
+.darkGraduate{
+    color:hsla(0, 0%, 81%, 0.5);
+}
+
+.darkHeading{
+    color:white;
+    line-height: 130%;
+}
+
+.darkName{
+    color:white;
+}
+
+/* Container CSS */
+.roundedCorners{
+    border-radius: 15px;
+}
+
+.firstDivision{
+    margin-bottom: 25px;
+    margin-right: 22px;
+}
+
+.secondDivision{
+    margin-right: 22px;
+}
+
+
+/* Daniel Clifford's Div */
+.first{
+    background-color: hsl(263, 55%, 52%); 
+    z-index: 3;
+}
+
+.firstInnerColumn{
+    z-index: 3;
+    
+
+   
+}
+
+
+#daniel{
+    border:3px solid rgb(145, 101, 212);
+}
+
+#imageDiv{
+    position:absolute;
+    right:30px;
+    z-index: 1;
+}
+
+/* Jonathan Walter's Div */
+.second{
+    background-color:hsl(217, 19%, 35%);
+    padding:0 25px 20px;
+}
+
+/* Jaennette Harmon's Div */
+.third{
+    background-color: white;
+    padding:0 25px 5px;
+}
+
+/* Patrick Abram's Div */
+.fourth{
+    background-color: hsl(219, 29%, 14%);
+}
+
+#abram{
+    border:2px solid hsl(263, 55%, 52%);
+}
+
+/* Kira Whittle's Div */
+.fifth{
+  background-color: white;
+  padding:3px 25px 20px;
+}
