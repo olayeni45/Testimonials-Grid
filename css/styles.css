@@ -7,9 +7,6 @@ body{
 
 .container{
     margin: 25px auto 40px;
-    box-shadow: 10px 10px 4px 0px rgba(218,227,234,0.86);
--webkit-box-shadow: 8px 7px 4px 0px rgba(218,227,234,0.86);
--moz-box-shadow: 8px 7px 4px 0px rgba(218,227,234,0.86);
 }
 
 .contentDiv{
@@ -88,9 +85,10 @@ body{
     color:white;
 }
 
+
 /* Container CSS */
 .roundedCorners{
-    border-radius: 15px;
+    border-radius: 14px;
 }
 
 .firstDivision{
@@ -102,20 +100,17 @@ body{
     margin-right: 22px;
 }
 
+.spaceBetween{
+    padding-right: 50px;
+}
+
 
 /* Daniel Clifford's Div */
 .first{
     background-color: hsl(263, 55%, 52%); 
     z-index: 3;
+    padding:0 25px 20px;
 }
-
-.firstInnerColumn{
-    z-index: 3;
-    
-
-   
-}
-
 
 #daniel{
     border:3px solid rgb(145, 101, 212);
@@ -127,6 +122,10 @@ body{
     z-index: 1;
 }
 
+#quotes{
+    width:90%;
+}
+
 /* Jonathan Walter's Div */
 .second{
     background-color:hsl(217, 19%, 35%);
@@ -136,12 +135,13 @@ body{
 /* Jaennette Harmon's Div */
 .third{
     background-color: white;
-    padding:0 25px 5px;
+    padding:0 28px 5px;
 }
 
 /* Patrick Abram's Div */
 .fourth{
     background-color: hsl(219, 29%, 14%);
+    padding:0 28px 5px;
 }
 
 #abram{
@@ -152,4 +152,75 @@ body{
 .fifth{
   background-color: white;
   padding:3px 25px 20px;
+}
+
+/* Footer */
+#footer{
+    text-align: center;
+}
+
+/* Media Queries  */
+@media  (min-width:992px) {
+    .second{
+        position: relative;
+        left:35px;
+    }
+
+    .fourth{
+        position: relative;
+        left:35px;
+    }
+}
+
+@media  (max-width:992px) {
+    .second{
+        margin-top: 30px;
+    }
+
+    .fourth{
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    #quotes{
+        width:70%;
+        margin-top: 5px;
+    }
+
+    .fifth{
+        width:90%;
+    }
+
+    body{
+        overflow-x:hidden ;
+    }
+}
+
+@media (max-width:600px) {
+    .container{
+    margin-left:50px;
+    margin-right: 0;
+    }
+}
+
+@media (max-width:768px) {
+    .fifth{
+        width:88%;
+    }
+}
+
+@media (max-width:576px) {
+    .fifth{
+        width:82%;
+    }
+}
+
+@media (min-width:992px) and (max-width:1200px){
+    #bioJonathan p{
+        width:120px;
+    }
+
+    #bioJ p{
+        width:120px;
+    }
 }
