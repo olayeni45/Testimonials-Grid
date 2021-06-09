@@ -198,8 +198,12 @@ body{
 
 @media (max-width:600px) {
     .container{
-    margin-left:50px;
+    margin-left:43px;
     margin-right: 0;
+    }
+
+    body{
+        overflow-x: hidden;
     }
 }
 
